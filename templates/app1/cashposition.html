@@ -10,6 +10,30 @@
                 <div class="col-md-12">
                     <h5>Today 1.50B Eur</h5>
                 </div>
+                <div class="col-md-2 p-3">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-outline-info dropdown-toggle text-grey"
+                                data-toggle="dropdown">
+                            Change currency
+                        </button>
+                        <div class="dropdown-menu" style="background-color: black;">
+                            <li class="dropdown-item" onclick="changeChart('bar')"
+                               style="height: 40px; font-size: 15px; color: white;">
+                                <i class="bx bx-bar-chart"></i>
+                                usd</li>
+                            <li class="dropdown-item" onclick="changeChart('pie')"
+                               style="height: 40px; font-size: 15px; color: white;">
+                                <i class="bx bx-pie-chart-alt"></i>
+                                inr</li>
+                            <li class="dropdown-item" onclick="changeChart('line')"
+                               style="height: 40px; font-size: 15px; color: white;">
+                              
+                                <i class="bx bx-line-chart"></i>
+                                cent</li>
+                           
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mt-3">
